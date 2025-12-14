@@ -36,6 +36,7 @@ Recurrent Interpolants aim to learn the full conditional distribution of the nex
 
 * Downloaded historical daily stock price data from Jun to Aug 2004 (GOOG Public market open year) to Dec 5 2025 from Yahoo Finance.
 * Performed feature engineering (OHLC averages, moving averages, volatility, percentile rank).
+![alt text](https://github.com/rajitb0/GOOG_prediction/blob/main/stock.png "")
 * Trained two models:
 
   1. A Recurrent Interpolant model with an RNN encoder and learned interpolant dynamics.
@@ -52,6 +53,8 @@ Recurrent Interpolants aim to learn the full conditional distribution of the nex
 ## Results
 
 In this setting, the Recurrent Interpolant model performed noticeably worse than the LSTM:
+
+![alt text](https://github.com/rajitb0/GOOG_prediction/blob/main/results_ri.png "")
 
 * RI predictions captured the overall long term trend but completely messed up the prices.
 * The LSTM tracked both overall price movement and trends much more closely.
