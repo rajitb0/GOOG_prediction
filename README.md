@@ -1,5 +1,9 @@
 # Recurrent Interpolants for Time Series Forecasting
 
+## How To Run?
+
+Download notebook from here directly (No cloning required) or copy code. Then upload notebook/code onto a Jupyter Notebook environment (Google Colab, Vscode, etc.) and run all cells in order. No scripts or external data required since everything is extracted in notebook.
+
 ## Overview
 (Disclaimer: Google Gemini 3 was used as coding assistance for the Recurrent Interpolation and LSTM aspect of this project)
 
