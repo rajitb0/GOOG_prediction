@@ -38,7 +38,7 @@ Recurrent Interpolants aim to learn the full conditional distribution of the nex
 
 ## Implementation
 
-* Downloaded historical daily stock price data from Jun to Aug 2004 (GOOG Public market open year) to Dec 5 2025 from Yahoo Finance.
+* Downloaded historical GOOG daily stock (Google stock) price data from somewhere between Jun to Aug 2004 to Dec 5 2025 from Yahoo Finance.
 * Performed feature engineering (OHLC averages, moving averages, volatility, percentile rank).
 ![alt text](https://github.com/rajitb0/GOOG_prediction/blob/main/stock.png "")
 * Trained two models:
