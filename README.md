@@ -1,4 +1,4 @@
-# Recurrent Interpolants for Time Series Forecasting
+# Recurrent Interpolants for GOOG stock Forecasting
 
 ## How To Run?
 
